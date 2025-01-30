@@ -3,7 +3,7 @@ import './App.css'
 function App() {
 
   return (
-    <div className='flex justify-center items-center h-screen bg-[hsl(185,75%,39%)] relative'>
+    <div className='flex justify-center items-center h-screen bg-[hsl(185,75%,39%)] relative overflow-hidden'>
       <img src="/assets/bg-pattern-top.svg" alt="bg top pattern" className='absolute -top-[40%] -left-[40%]' />
       <img src="/assets/bg-pattern-bottom.svg" alt="bg bottom pattern" className='absolute -bottom-[40%] -right-[40%]' />
       <div className='flex flex-col items-center shadow-md rounded-2xl overflow-hidden bg-white z-10'>
